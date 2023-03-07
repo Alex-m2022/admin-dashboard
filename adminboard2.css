@@ -1,0 +1,203 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.mainGridContainer {
+    display: grid;
+    grid-template: 135px 610px  / 300px 800px 435px;
+}
+
+
+aside {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #00356B;
+}
+
+nav {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    
+}
+
+.top-nav {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-navLogos {
+    display: flex;
+    margin-right: 90px;
+}
+
+.lower-nav {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.lower-nav > img {
+    margin-right: 20px;
+}
+
+.smallPic {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.profilePic {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 40px;
+}
+.myButtons {
+    margin-left: 450px;
+}
+
+button {
+    width: 90px;
+    height: 40px;
+    border-radius: 12px;
+    margin-left: 20px;
+    background-color: #00356B;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+input {
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    border: none;
+    width: 600px;
+    height: 30px;    
+}
+
+.grid-content {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #AFDBF5;
+  
+}
+
+.grid-contentRight {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #AFDBF5;
+}
+
+.grid-contentRight > h2 {
+    margin-top: 15px;
+}
+
+.grid-announcements {
+    display: grid;
+    grid-template: 250px / 250px;
+}
+
+.announcementCard {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.announcementText {
+    margin-left: 10px ;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.announcementText > p {
+    border-bottom: 1px solid lightgray;
+}
+
+.last {
+    border: none;
+}
+
+.grid-Trending {
+    display: grid;
+    grid-template: 250px / 250px;
+}
+
+.trendingCard {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.makeFlex {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.grid-content > h2 {
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.project-cards {
+    display: grid;
+    grid-template: 165px 165px 165px / 350px 350px;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.changeColor {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.movetxt {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.logos {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+
+.project-cards > div {
+
+    border-left: 5px solid #2E5090;
+    border-radius: 8px;
+}
+
+.mainLinks {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.linkNdText {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+    text-shadow: 0 0 5px black;
+}
+
+.gitLogo {
+    margin-top: 230px;
+    color: white;
+}
+
+i {
+    margin-right: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
